@@ -2,7 +2,7 @@
 $n=10;
 $n1=0;
 $n2=1;
-echo "Fibonacci series of $n terms:";
+echo "Fibonacci series of $n terms:";//it is used to print the Fibonacci series
 echo $n1.",".$n2;
 for($i=3;$i<=$n;$i++){
 $n3=$n1+$n2;
@@ -10,4 +10,5 @@ echo",".$n3;
 $n1=$n2;
 $n2=$n3;
 }
+
 ?>
