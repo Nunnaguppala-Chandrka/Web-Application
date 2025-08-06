@@ -5,10 +5,11 @@ $n2=1;
 echo "Fibonacci series of $n terms:";//it is used to print the Fibonacci series
 echo $n1.",".$n2;
 for($i=3;$i<=$n;$i++){
-$n3=$n1+$n2;
+$n3=$n1+$n2;//it is used to add
 echo",".$n3;
 $n1=$n2;
 $n2=$n3;
 }
 
 ?>
+
